@@ -1,10 +1,12 @@
 .homepage {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .homepage h2 {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: 400;
 }
 
@@ -19,7 +21,10 @@
 
 .individual-project {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 30px;
 
 }
 
@@ -27,13 +32,51 @@
   text-align: center;
 }
 
-.project-image {
-  border: solid red;
-  min-width: 250px;
+.card-project {
+  overflow: hidden;
+  height: 150px;
+  max-width: 500px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
 }
 
-.project-image::before {
-  content:url('pairwise.png');
-  max-width: 100%;
-  max-height: 100%;
+.card-project:hover {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.card-project img {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+}
+
+.card-project h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-project p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-project .card-project-infos {
+  padding: 16px;
+}
+
+a, u {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
