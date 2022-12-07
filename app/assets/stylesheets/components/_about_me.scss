@@ -1,10 +1,23 @@
 .about-me {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .about-me h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-weight: 400;
+}
+
+.about-me p {
+  font-size: 16px;
+}
+
+.write-me {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
