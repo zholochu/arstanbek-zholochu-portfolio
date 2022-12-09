@@ -1,1 +1,7 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+<strong>My Portfolio Web Site</strong>
+
+I have built this one page portfolio to showcase completed and ongoing projects.
+
+Please, feel free to add your comments/suggestions to improve this product.
+
+Thank you.
