@@ -40,6 +40,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .card-project:hover {
@@ -65,9 +66,6 @@
   margin-top: 4px;
 }
 
-.card-project {
-  padding: 10px;
-}
 
 .card-project-infos {
   max-height: 190px;
