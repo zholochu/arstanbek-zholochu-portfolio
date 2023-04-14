@@ -1,17 +1,45 @@
+body {
+  background: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+  // border: solid red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.avatar-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc; /* optional background color */
+}
+
+.avatar-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.contact-info {
+  // border: solid green;
+}
+
 .homepage {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
-}
-
-.homepage h2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-weight: 500;
-}
-
-.header {
-  text-align: center;
 }
 
 .recent-projects {
@@ -26,10 +54,6 @@
   justify-content: space-around;
   gap: 30px;
 
-}
-
-.project-header {
-  text-align: center;
 }
 
 .card-project {
@@ -75,19 +99,4 @@
   .card-project-infos h2 {
     font-size: 4vw;
   }
-}
-
-a, u {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.copyright {
-  text-align: center;
 }
