@@ -32,86 +32,86 @@
     </div>
   </div>
 
-  <div class="avatar-container">
-    <img src='<%= image_path('Arstanbek Zholochu Profile.jpg') %>' alt="Avatar" class="avatar-img"/>
-  </div>
-</div>
+  <%# <div class="avatar-container"> %>
+    <%# <img src='<%= image_path('Arstanbek Zholochu Profile.jpg')' alt="Avatar" class="avatar-img"/> %>
+  <%# </div> %>
 
 
-<div class="container homepage">
-    <div class="header">
-      <h2><strong>Recent Projects</strong></h2>
-    </div>
-
-    <div class="container recent-projects">
-
-      <div class="individual-project">
-
-        <a href="https://www.pair-wise.ca" target="_blank" rel="noopener noreferrer">
-          <div class="card-project">
-            <img src='<%= image_path('pairwise.png') %>'/>
-            <div class="card-project-infos">
-              <h2>PairWise</h2>
-              <p><strong>Bootcamp final project</strong> - web application for running scrabble tournaments.</p>
-              <p><em>Bootstrap, CSS, Devise, Figma, Heroku, HTML, JavaScript, Pundit, Ruby, Ruby on Rails, Stimulus</em></p>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://airbne.herokuapp.com" target="_blank" rel="noopener noreferrer">
-          <div class="card-project">
-            <img src='<%= image_path('airbne.png') %>'/>
-            <div class="card-project-infos">
-              <h2>Airbne</h2>
-              <p><strong>Bootcamp intermediate project</strong> on creating an Airbnb type website.</p>
-              <p><em>Bootstrap, CSS, Devise, Heroku, HTML, JavaScript, Ruby, Ruby on Rails, Stimulus</em></p>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://www.arstanbekzholochu.com" target="_blank" rel="noopener noreferrer">
-          <div class="card-project">
-            <img src='<%= image_path('Arstanbek Zholochu Portfolio.png') %>'/>
-            <div class="card-project-infos">
-              <h2>Personal Portfolio</h2>
-              <p>Personal website showcasing my past and ongoing projects.</p>
-              <p><em>Bootstrap, CSS, Heroku, HTML, Ruby on Rails</em></p>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://github.com/zholochu/tic-tac-toe-react/tree/master/src" target="_blank" rel="noopener noreferrer">
-          <div class="card-project">
-            <div class="project-image">
-              <img src='<%= image_path('tic-tac-toe-react.png') %>'/>
-            </div>
-
-            <div class="card-project-infos">
-              <h2>Tic-tac-toe game</h2>
-              <p>Simple Tic-tac-toe game application based on React tutorial .</p>
-              <p><em>CSS, JavaScript, React</em></p>
-            </div>
-          </div>
-        </a>
-
+  <div class="container projects">
+      <div class="header">
+        <h2><strong>Recent Projects</strong></h2>
       </div>
-    </div>
-</div>
 
-<div class="container about-me">
-  <div class="my-info">
-    <h3><strong>My background</strong></h3>
-    <p>December 2022 graduate from <strong>Le Wagon Bootcamp Montreal</strong> 10 Week Intensive Full Stack Web Development Program. Although I had a non-tech background before joining Le Wagon, in 10 weeks I was able to understand fundamentals of <em>computer programming</em> and apply on real projects. I look forward to discover fascinating tech and programming world.
-    </p>
-    <h3><strong>Technical Skills:</strong></h3>
-    <p>Ruby, Ruby on Rails, JavaScript, HTML, CSS, Bootstrap, Figma, Trello, Heroku</p>
+      <div class="container recent-projects">
+
+        <div class="individual-project">
+
+          <a href="https://www.pair-wise.ca" target="_blank" rel="noopener noreferrer">
+            <div class="card-project">
+              <img src='<%= image_path('pairwise.png') %>'/>
+              <div class="card-project-infos">
+                <h2>PairWise</h2>
+                <p><strong>Bootcamp final project</strong> - web application for running scrabble tournaments.</p>
+                <p><em>Bootstrap, CSS, Devise, Figma, Heroku, HTML, JavaScript, Pundit, Ruby, Ruby on Rails, Stimulus</em></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://airbne.herokuapp.com" target="_blank" rel="noopener noreferrer">
+            <div class="card-project">
+              <img src='<%= image_path('airbne.png') %>'/>
+              <div class="card-project-infos">
+                <h2>Airbne</h2>
+                <p><strong>Bootcamp intermediate project</strong> on creating an Airbnb type website.</p>
+                <p><em>Bootstrap, CSS, Devise, Heroku, HTML, JavaScript, Ruby, Ruby on Rails, Stimulus</em></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.arstanbekzholochu.com" target="_blank" rel="noopener noreferrer">
+            <div class="card-project">
+              <img src='<%= image_path('Arstanbek Zholochu Portfolio.png') %>'/>
+              <div class="card-project-infos">
+                <h2>Personal Portfolio</h2>
+                <p>Personal website showcasing my past and ongoing projects.</p>
+                <p><em>Bootstrap, CSS, Heroku, HTML, Ruby on Rails</em></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/zholochu/tic-tac-toe-react/tree/master/src" target="_blank" rel="noopener noreferrer">
+            <div class="card-project">
+              <div class="project-image">
+                <img src='<%= image_path('tic-tac-toe-react.png') %>'/>
+              </div>
+
+              <div class="card-project-infos">
+                <h2>Tic-tac-toe game</h2>
+                <p>Simple Tic-tac-toe game application based on React tutorial .</p>
+                <p><em>CSS, JavaScript, React</em></p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
   </div>
-</div>
 
-<div class="container write-me">
-    <h5>Please, feel free to contact me 😎</h5>
-</div>
+  <div class="container about-me">
+    <div class="my-info">
+      <h3><strong>My background</strong></h3>
+      <p>December 2022 graduate from <strong>Le Wagon Bootcamp Montreal</strong> 10 Week Intensive Full Stack Web Development Program. Although I had a non-tech background before joining Le Wagon, in 10 weeks I was able to understand fundamentals of <em>computer programming</em> and apply on real projects. I look forward to discover fascinating tech and programming world.
+      </p>
+      <h3><strong>Technical Skills:</strong></h3>
+      <p>Ruby, Ruby on Rails, JavaScript, HTML, CSS, Bootstrap, Figma, Trello, Heroku</p>
+    </div>
+  </div>
 
-<div class="container copyright">
-  <h5>© <%= Date.current.year %> Arstanbek Zholochu</h5>
+  <div class="container write-me">
+      <h5>Please, feel free to contact me 😎</h5>
+  </div>
+
+  <div class="container copyright">
+    <h5>© <%= Date.current.year %> Arstanbek Zholochu</h5>
+  </div>
 </div>
