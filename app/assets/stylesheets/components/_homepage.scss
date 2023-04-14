@@ -5,11 +5,22 @@ body {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .avatar-container {
+    order: 2;
+  }
+}
 
 .avatar-container {
   width: 100%;
@@ -32,11 +43,11 @@ body {
 }
 
 
-
-
-
 .contact-info {
-  // border: solid green;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin: 10px;
 }
 
 .homepage {
