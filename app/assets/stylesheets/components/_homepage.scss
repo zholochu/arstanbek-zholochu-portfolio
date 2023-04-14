@@ -4,7 +4,7 @@ body {
 }
 
 .main {
-  border: solid yellow;
+  // border: solid yellow;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,14 +14,14 @@ body {
 }
 
 .contact-info {
-  border: solid green;
+  // border: solid green;
   display: block;
   margin-top: 25px;
   margin-bottom: 50px;
 }
 
 .projects {
-  border: solid red;
+  // border: solid red;
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
